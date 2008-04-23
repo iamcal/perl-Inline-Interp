@@ -1,7 +1,7 @@
 use strict;
 use Test::Simple tests => 3;
 
-eval "require Inline::Echo;";
+eval "use Inline::Echo;";
 ok(!$!, "loaded Inline:Echo $!");
 print STDERR $! if $!;
 
