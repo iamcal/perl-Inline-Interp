@@ -1,5 +1,6 @@
 MANIFEST
+README
 Makefile.PL
 Interp.pm
 Echo.pm
-t/01basic.t
+t/01_basic.t

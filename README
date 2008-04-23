@@ -1,0 +1,28 @@
+Inline::Interp.pm
+=================
+
+Make Inline modules for interpreted languages easily
+
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+
+DEPENDENCIES
+
+This module requires these other modules and libraries:
+
+  Inline
+  Test::Simple
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2003 Cal Henderson <cal@iamcal.com>
+License: Perl Artistic License
