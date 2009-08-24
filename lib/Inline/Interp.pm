@@ -1,6 +1,6 @@
 package Inline::Interp;
 
-$VERSION = '0.04';
+$VERSION = '0.05';
 
 use strict;
 use Carp;
@@ -74,7 +74,7 @@ sub run {
 		$input_callback = ${$data}{input_callback} || 0;
 		$output_callback = ${$data}{output_callback} || 0;
 		$echo = ${$data}{echo} || 0;
-	}else{
+	}elsif (defined $data){
 		@data = split(//, $data);
 	}
 

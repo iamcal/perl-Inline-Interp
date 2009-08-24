@@ -2,9 +2,9 @@ use ExtUtils::MakeMaker;
 
 WriteMakefile(
     'NAME'		=> 'Inline::Interp',
-    'VERSION_FROM'	=> 'Interp.pm', # finds $VERSION
+    'VERSION_FROM'	=> 'lib/Inline/Interp.pm',
     'PREREQ_PM'		=> {
-				Inline		=> 0.43,
-				Test::Simple	=> 0,
-			},
+		Inline		=> 0.45,
+		Test::More	=> 0,
+	},
 );

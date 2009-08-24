@@ -1,10 +1,9 @@
 use strict;
-use Test::Simple tests => 3;
+use Test::More tests => 3;
 
-eval "require Inline::Echo;";
-ok(!$@, "loaded Inline:Echo $@");
+require_ok( 'Inline::Echo' );
 
 eval "use Inline 'Echo' => 'function hello_world {hello world}';";
 ok(!$@, "created a code block $@");
 
-ok(&hello_world({echo => 0}) eq 'hello world', "function returned ok");
+is(&hello_world({echo => 0}), 'hello world', "function returned ok");

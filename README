@@ -1,5 +1,5 @@
-Inline::Interp.pm
-=================
+Inline::Interp
+==============
 
 Make Inline modules for interpreted languages easily
 
@@ -19,10 +19,10 @@ DEPENDENCIES
 This module requires these other modules and libraries:
 
   Inline
-  Test::Simple
+  Test::More
 
 
 COPYRIGHT AND LICENCE
 
-Copyright (C) 2003 Cal Henderson <cal@iamcal.com>
-License: Perl Artistic License
+Copyright (C) 2003-2009 Cal Henderson <cal@iamcal.com>
+License: Perl Artistic License 2.0
