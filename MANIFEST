@@ -3,5 +3,6 @@ README
 Makefile.PL
 lib/Inline/Interp.pm
 lib/Inline/Echo.pm
+t/00_inline.t
 t/01_basic.t
 t/02_data.t
